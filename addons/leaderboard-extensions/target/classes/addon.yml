@@ -1,0 +1,10 @@
+name: LeaderboardExtensions
+version: 2.4.1
+
+author: xaniox
+main: de.xaniox.leaderboardextensions.LeaderboardAddOn
+i18n: dynamic
+
+extensions:
+- de.xaniox.leaderboardextensions.ExtensionLeaderboardPodium
+- de.xaniox.leaderboardextensions.ExtensionLeaderboardWall

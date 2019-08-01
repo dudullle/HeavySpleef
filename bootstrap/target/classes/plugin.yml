@@ -1,0 +1,17 @@
+name: ${project.parent.name}
+version: ${project.parent.version}
+prefix: ${project.parent.name}
+
+description: ${project.parent.description}
+author: xaniox
+website: ${project.parent.url}
+
+main: de.xaniox.heavyspleef.HeavySpleefPlugin
+
+depend: [WorldEdit]
+softdepend: [Vault, ProtocolLib, Multiverse-Core, MultiWorld]
+
+commands:
+  spleef:
+    description: Main command for controlling HeavySpleef
+    aliases: [spl, heavyspleef, splegg]

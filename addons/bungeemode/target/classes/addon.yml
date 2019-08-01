@@ -1,0 +1,10 @@
+name: Bungeemode
+version: ${project.parent.version}
+author: xaniox
+
+main: de.xaniox.bungeemode.BungeemodeAddon
+i18n: dynamic
+
+flags:
+- de.xaniox.bungeemode.FlagTeleportAll
+- de.xaniox.bungeemode.FlagBungeeAutospectate

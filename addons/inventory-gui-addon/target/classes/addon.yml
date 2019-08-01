@@ -1,0 +1,9 @@
+name: JoinGUI
+version: 2.4.1
+
+author: xaniox
+main: de.xaniox.joingui.JoinGuiAddOn
+i18n: dynamic
+
+flags:
+- de.xaniox.joingui.FlagJoinItem

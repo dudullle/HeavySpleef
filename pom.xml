@@ -10,7 +10,7 @@
 	<inceptionYear>2014-2016</inceptionYear>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<worldedit.version>6.0.0-SNAPSHOT</worldedit.version>
+		<worldedit.version>7.0.0-SNAPSHOT</worldedit.version>
 		<package.librarybase>de.xaniox.heavyspleef.lib</package.librarybase>
 		<build.number>UNKNOWN</build.number>
         <project.developer>Matthias Werning</project.developer>
@@ -67,7 +67,7 @@
 				<version>1.10.b1</version>
 				<configuration>
                     <properties>
-                        <name>${project.parent.name}</name>
+                        <name>${name}</name>
                         <developer>${project.developer}</developer>
                         <inceptionYear>${project.inceptionYear}</inceptionYear>
                     </properties>
@@ -229,6 +229,11 @@
 	</pluginRepositories>
 	<repositories>
 		<repository>
+			<id>Guava-repo</id>
+			<name>guava-repo</name>
+			<url>https://mvnrepository.com/artifact/com.google.guava/guava</url>
+		</repository>
+		<repository>
 			<id>spigot-repo</id>
 			<name>Spigot's repository</name>
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -257,12 +262,12 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>18.0</version>
+			<version>23.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.11-R0.1-SNAPSHOT</version>
+			<version>1.14-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -285,13 +290,13 @@
 		<dependency>
 			<groupId>net.milkbowl.vault</groupId>
 			<artifactId>VaultAPI</artifactId>
-			<version>1.5</version>
+			<version>1.7</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
 			<artifactId>ProtocolLib</artifactId>
-			<version>3.6.4</version>
+			<version>4.3.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

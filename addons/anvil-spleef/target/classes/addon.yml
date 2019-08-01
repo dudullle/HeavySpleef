@@ -1,0 +1,9 @@
+name: AnvilSpleef
+version: 2.4.1
+
+author: xaniox
+main: de.xaniox.anvilspleef.AnvilSpleefAddOn
+i18n: dynamic
+
+flags:
+- de.xaniox.anvilspleef.FlagAnvilSpleef
